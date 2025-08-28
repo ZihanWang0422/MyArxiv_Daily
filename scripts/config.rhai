@@ -1,20 +1,26 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
 let titles_method = ["Agile", "Robust", "Dynamic", "Manipulation", "Locomotion", "Walk", "Navigation", "Planning", "Loco-Manipulation", "coordinated", "MPC", "LQR", "Whole-Body Control", "Whole-Body", "Optimization", "Learning", "Sim-to-Real", "Imitaion", "SLAM", "Estimation", "Reinforment Learning", "Deep RL", "DRL", "Gradient", "Terrain", "Semantic", "Open-Vocabulary","Localization", "Diffusion Policy", "Generative", "Vision-Language-Action","VLA", "Word Model"];
-let titles_platform = ["Robots", "Biped", "Quadrupedal", "Legged", "ANYmal", "Robot", "Humanoid", "Autonomus", "Driving"];
+let titles_platform = ["Robots", "Biped", "Quadrupedal", "Legged", "Robot", "Humanoid", "Autonomus", "Driving"];
 let titles_sensor = ["LiDAR", "Visual", "Vision", "Camera", "Inertial","Radar","Multi-modal","Event Camera"];
 
 let titles = titles_method + titles_type + titles_sensor + titles_platform;
 let authors_array = [        
 //RL
-"Sergey Leyvine",
+  "Sergey Leyvine", "Piter Abbel", 
+
 // 双足机器人
   "Scott Kuindersma", "Russ Tedrake", "Aaron Ames", "Sangbae Kim", "Jie Tan",
   "Joonho Lee", "Chris Atkeson", "Yoshihiko Nakamura", "Shuuji Kajita", "Oussama Khatib",
+  "Jianyu Chen"
   
-  // 足式机器人
+// 足式机器人
   "Marco Hutter", "Jemin Hwangbo", "Alexander W. Winkler", "Matteo Focchi",
   "Benjamin Katz", "Steve Collins", "Seungmoon Song", "Michael Posa", 
-  "Zhibin Li", "Takuma Yoneda"
+  "Zhibin Li", "Takuma Yoneda", "Ding Zhao"
+
+//Emboied AI
+  “Hao Su”, "Chuang Gan", "Shuran Song", "Fei-fei Li", "Huazhe Xu", "Yang Gao", "Yi Wu",
+
 ];
 
 let conferences = [
