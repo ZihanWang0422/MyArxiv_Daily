@@ -11,7 +11,7 @@ let authors_array = [        
 // 双足机器人
   "Scott Kuindersma", "Russ Tedrake", "Aaron Ames", "Sangbae Kim", "Jie Tan",
   "Joonho Lee", "Chris Atkeson", "Yoshihiko Nakamura", "Shuuji Kajita", "Oussama Khatib",
-  "Jianyu Chen"
+  "Jianyu Chen",
   
 // 足式机器人
   "Marco Hutter", "Jemin Hwangbo", "Alexander W. Winkler", "Matteo Focchi",
