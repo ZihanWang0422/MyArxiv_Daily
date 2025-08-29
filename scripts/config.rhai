@@ -19,7 +19,7 @@ let authors_array = [        
   "Zhibin Li", "Takuma Yoneda", "Ding Zhao"
 
 //Emboied AI
-  “Hao Su”, "Chuang Gan", "Shuran Song", "Fei-fei Li", "Huazhe Xu", "Yang Gao", "Yi Wu",
+  "Hao Su", "Chuang Gan", "Shuran Song", "Fei-fei Li", "Huazhe Xu", "Yang Gao", "Yi Wu",
 
 ];
 
