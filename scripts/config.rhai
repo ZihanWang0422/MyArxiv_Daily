@@ -16,7 +16,7 @@ let authors_array = [        
 // 足式机器人
   "Marco Hutter", "Jemin Hwangbo", "Alexander W. Winkler", "Matteo Focchi",
   "Benjamin Katz", "Steve Collins", "Seungmoon Song", "Michael Posa", 
-  "Zhibin Li", "Takuma Yoneda", "Ding Zhao"
+  "Zhibin Li", "Takuma Yoneda", "Ding Zhao",
 
 //Emboied AI
   "Hao Su", "Chuang Gan", "Shuran Song", "Fei-fei Li", "Huazhe Xu", "Yang Gao", "Yi Wu",
