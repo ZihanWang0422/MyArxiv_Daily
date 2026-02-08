@@ -1,5 +1,5 @@
 let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_method = ["Locomotion", "MPC", "LQR", "Loco-manipulation", "Whole-Body Control", "Whole-Body", "WBC", "Optimization", "Learning", "Sim-to-Real", "Imitaion", "Terrain", "Perception", "Reinforment Learning", "Deep RL", "DRL", "Gradient"
+let titles_method = ["Locomotion", "MPC", "LQR", "Loco-manipulation", "Whole-Body Control", "Whole-Body", "WBC", "Optimization", "Learning", "Sim-to-Real", "Imitaion", "Terrain", "Perception", "Reinforment Learning", "Deep RL", "DRL", "Gradient", "PPO",
                      "Navigation", "Planning", "Planner", "SLAM", "Estimation", "Semantic", "Open-Vocabulary","Localization", "End-to-end",  
                      "Manipulation", "Diffusion Policy", "Generative", "Vision-Language-Action", "VLM", "VLA", "Word Model"];
 let titles_platform = ["Robots", "Biped", "Quadrupedal", "Legged", "Wheel", "Humanoid", "Car", "Mobile", "Drone", "Autonomous"， "Driving", "Arm", "Franka"];
