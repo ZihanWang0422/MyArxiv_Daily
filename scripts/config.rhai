@@ -1,27 +1,52 @@
-let titles_type = ["Dataset", "Survey", "Review", "Overview"];
-let titles_method = ["Locomotion", "MPC", "LQR", "Loco-manipulation", "Whole-Body Control", "Whole-Body", "WBC", "Optimization", "Learning", "Sim-to-Real", "Imitaion", "Terrain", "Perception", "Reinforment Learning", "Deep RL", "DRL", "Gradient", "PPO",
-                     "Navigation", "Planning", "Planner", "SLAM", "Estimation", "Semantic", "Open-Vocabulary","Localization", "End-to-end",  
-                     "Manipulation", "Diffusion Policy", "Generative", "Vision-Language-Action", "VLM", "VLA", "Word Model"];
-let titles_platform = ["Robots", "Biped", "Quadrupedal", "Legged", "Wheel", "Humanoid", "Car", "Mobile", "Drone", "Autonomous"， "Driving", "Arm", "Franka"];
-let titles_sensor = ["LiDAR", "Visual", "Vision", "Camera", "Inertial","Radar","Multi-modal","Event Camera"];
+// --- 1. 类型关键词 ---
+let titles_type = ["Dataset", "Survey", "Review", "Overview", "Benchmark", "Systematic"];
 
-let titles = titles_method + titles_type + titles_sensor + titles_platform;
-let authors_array = [        
-//RL
-  "Sergey Leyvine", "Piter Abbel", 
+// --- 2. 核心方法论 (按顺序排列) ---
 
-// Legged
-  "Scott Kuindersma", "Russ Tedrake", "Aaron Ames", "Sangbae Kim", "Jie Tan",
-  "Joonho Lee", "Chris Atkeson", "Yoshihiko Nakamura", "Shuuji Kajita", "Oussama Khatib",
-  "Jianyu Chen", "Marco Hutter", "Jemin Hwangbo", "Alexander W. Winkler", "Matteo Focchi",
-  "Benjamin Katz", "Steve Collins", "Seungmoon Song", "Michael Posa", 
-  "Zhibin Li", "Takuma Yoneda", "Ding Zhao",
+// [MANIPULATION] 操纵、抓取、触觉、扩散策略
+let titles_manipulation = [
+    "Manipulation", "Grasping", "Dexterous", "Tactile", "Teleoperation", 
+    "Diffusion Policy", "Flow Matching", "Generalist Robot", "Vision-Language-Action", 
+    "VLA", "VLM", "End-to-end", "Foundation Model", "World Model", 
+    "Co-evaluation", "Dual-arm", "Franka", "Arm"
+];
 
-//Manipulation
-  "Hao Su", "Chuang Gan", "Shuran Song", "Fei-fei Li", "Huazhe Xu", "Yang Gao", "Yi Wu",
+// [NAVIGATION] 导航、SLAM、避障、具身语义
+let titles_navigation = [
+    "Navigation", "Planning", "Planner", "SLAM", "Estimation", "Localization", 
+    "Semantic", "Open-Vocabulary", "Socially Aware", "Path Finding", 
+    "Avoidance", "Mapping", "Lidar", "Visual-Inertial", "Exploration",
+    "Autonomous Driving", "Car", "Drone"
+];
 
-//Navigation
-  "Hongyang Li", 
+// [LOCOMOTION] 足式、运动控制、WBC
+let titles_locomotion = [
+    "Locomotion", "MPC", "LQR", "Loco-manipulation", "Whole-Body Control", 
+    "Whole-Body", "WBC", "Optimization", "Reinforcement Learning", "Deep RL", 
+    "DRL", "PPO", "Sim-to-Real", "Imitation Learning", "Terrain", 
+    "Legged", "Biped", "Quadrupedal", "Humanoid", "Exoskeleton"
+];
+
+// --- 3. 硬件平台与感知 ---
+let titles_platform = ["Robots", "Mobile", "Wheel", "UAV", "UVS", "Agile"];
+let titles_sensor = ["LiDAR", "Vision", "Camera", "Inertial", "Radar", "Multi-modal", "Event Camera", "RGB-D"];
+
+// --- 4. 汇总 (按你要求的顺序: Manipulation -> Navigation -> Locomotion) ---
+let titles = titles_manipulation + titles_navigation + titles_locomotion + titles_type + titles_platform + titles_sensor;
+
+// --- 5. 作者库 (修正拼写并微扩) ---
+let authors_array = [        
+    // RL & Learning
+    "Sergey Levine", "Pieter Abbeel", "Chelsea Finn", "Lerrel Pinto", 
+    // Legged & Control
+    "Marco Hutter", "Sangbae Kim", "Aaron Ames", "Russ Tedrake", "Scott Kuindersma",
+    "Joonho Lee", "Jemin Hwangbo", "Zhibin Li", "Yoshihiko Nakamura", "Shuuji Kajita",
+    "Oussama Khatib", "Michael Posa", "Alexander W. Winkler", "Jianyu Chen", 
+    // Manipulation & Vision
+    "Hao Su", "Shuran Song", "Fei-Fei Li", "Huazhe Xu", "Yang Gao", "Yi Wu", "Chuang Gan",
+    "Jiajun Wu", "Abhinav Gupta"
+    //Navigation
+    "Hongyang Li", 
 
 
 ];
