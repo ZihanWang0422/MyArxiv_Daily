@@ -44,7 +44,7 @@ let authors_array = [
     "Oussama Khatib", "Michael Posa", "Alexander W. Winkler", "Jianyu Chen", 
     // Manipulation & Vision
     "Hao Su", "Shuran Song", "Fei-Fei Li", "Huazhe Xu", "Yang Gao", "Yi Wu", "Chuang Gan",
-    "Jiajun Wu", "Abhinav Gupta"
+    "Jiajun Wu", "Abhinav Gupta",
     //Navigation
     "Hongyang Li", 
 
